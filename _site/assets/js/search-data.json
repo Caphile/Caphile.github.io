@@ -1,0 +1,177 @@
+{"0": {
+    "doc": "Algorithm",
+    "title": "Algorithm",
+    "content": " ",
+    "url": "/docs/Study/Algorithm/Algorithm.html",
+    
+    "relUrl": "/docs/Study/Algorithm/Algorithm.html"
+  },"1": {
+    "doc": "Baekjoon",
+    "title": "Baekjoon",
+    "content": " ",
+    "url": "/docs/Study/Algorithm/Baekjoon/Baekjoon.html",
+    
+    "relUrl": "/docs/Study/Algorithm/Baekjoon/Baekjoon.html"
+  },"2": {
+    "doc": "Codeforces",
+    "title": "Codeforces",
+    "content": " ",
+    "url": "/docs/Study/Algorithm/Codeforces/Codeforces.html",
+    
+    "relUrl": "/docs/Study/Algorithm/Codeforces/Codeforces.html"
+  },"3": {
+    "doc": "Dovelet",
+    "title": "Dovelet",
+    "content": " ",
+    "url": "/docs/Study/Algorithm/Dovelet/Dovelet.html",
+    
+    "relUrl": "/docs/Study/Algorithm/Dovelet/Dovelet.html"
+  },"4": {
+    "doc": "ML/DL",
+    "title": "ML/DL",
+    "content": " ",
+    "url": "/docs/Study/ML&DL/ML&DL.html",
+    
+    "relUrl": "/docs/Study/ML&DL/ML&DL.html"
+  },"5": {
+    "doc": "Network",
+    "title": "Network",
+    "content": " ",
+    "url": "/docs/Study/Network/Network.html",
+    
+    "relUrl": "/docs/Study/Network/Network.html"
+  },"6": {
+    "doc": "Profile",
+    "title": "Heechan Kim",
+    "content": ". | HUFS CES | . ",
+    "url": "/docs/Profile.html#heechan-kim",
+    
+    "relUrl": "/docs/Profile.html#heechan-kim"
+  },"7": {
+    "doc": "Profile",
+    "title": "Skills",
+    "content": "Backend . Network . Data Analysis . AI . ",
+    "url": "/docs/Profile.html#skills",
+    
+    "relUrl": "/docs/Profile.html#skills"
+  },"8": {
+    "doc": "Profile",
+    "title": "Contact Information",
+    "content": "Email . GitHub . ",
+    "url": "/docs/Profile.html#contact-information",
+    
+    "relUrl": "/docs/Profile.html#contact-information"
+  },"9": {
+    "doc": "Profile",
+    "title": "Profile",
+    "content": " ",
+    "url": "/docs/Profile.html",
+    
+    "relUrl": "/docs/Profile.html"
+  },"10": {
+    "doc": "Projects",
+    "title": "Projects",
+    "content": " ",
+    "url": "/docs/Projects/Projects.html",
+    
+    "relUrl": "/docs/Projects/Projects.html"
+  },"11": {
+    "doc": "SNaiL",
+    "title": "SNaiL",
+    "content": "AI 기반 아동 인지능력 검사 서비스 . ",
+    "url": "/docs/Projects/SNaiL/SNaiL.html",
+    
+    "relUrl": "/docs/Projects/SNaiL/SNaiL.html"
+  },"12": {
+    "doc": "SNaiL",
+    "title": "Contents",
+    "content": ". | 개요 | 개발 . | Backend | Frontend | Modeling | . | . ",
+    "url": "/docs/Projects/SNaiL/SNaiL.html#contents",
+    
+    "relUrl": "/docs/Projects/SNaiL/SNaiL.html#contents"
+  },"13": {
+    "doc": "SNaiL",
+    "title": "개요",
+    "content": "ㅇㄴㅇㄴ . ",
+    "url": "/docs/Projects/SNaiL/SNaiL.html#%EA%B0%9C%EC%9A%94",
+    
+    "relUrl": "/docs/Projects/SNaiL/SNaiL.html#개요"
+  },"14": {
+    "doc": "SNaiL",
+    "title": "개발",
+    "content": "Backend . Frontend . Modeling . ㅇㄴㅇㄴ ㅇㄴㅇㄴㅇㄴ ㅇㄴ ㅇㄴ ㅇㄴ ㅇ ㄴ ㅇㄴㅇㄴㅇㄴㅇ . ㅇㄴㅇ . ㅇㄴㅇㄴ . ㅇ . ㅇㄴㅇ ㄴ ㅇㄴ ㅇ . ",
+    "url": "/docs/Projects/SNaiL/SNaiL.html#%EA%B0%9C%EB%B0%9C",
+    
+    "relUrl": "/docs/Projects/SNaiL/SNaiL.html#개발"
+  },"15": {
+    "doc": "Study",
+    "title": "Study",
+    "content": " ",
+    "url": "/docs/Study/Study.html",
+    
+    "relUrl": "/docs/Study/Study.html"
+  },"16": {
+    "doc": "UNNIS",
+    "title": "UNNIS",
+    "content": "인플루언서 초개인화 데이터를 활용한 AI 화장품 추천 모델 . 2023-1 한국외대 캡스톤프로젝트의 일환으로, K-STYLE HUB와 협력하여 제작 . ",
+    "url": "/docs/Projects/UNNIS/UNNIS.html",
+    
+    "relUrl": "/docs/Projects/UNNIS/UNNIS.html"
+  },"17": {
+    "doc": "UNNIS",
+    "title": "Contents",
+    "content": ". | 개요 | 개발 | . ",
+    "url": "/docs/Projects/UNNIS/UNNIS.html#contents",
+    
+    "relUrl": "/docs/Projects/UNNIS/UNNIS.html#contents"
+  },"18": {
+    "doc": "UNNIS",
+    "title": "개요",
+    "content": ". ",
+    "url": "/docs/Projects/UNNIS/UNNIS.html#%EA%B0%9C%EC%9A%94",
+    
+    "relUrl": "/docs/Projects/UNNIS/UNNIS.html#개요"
+  },"19": {
+    "doc": "UNNIS",
+    "title": "개발",
+    "content": " ",
+    "url": "/docs/Projects/UNNIS/UNNIS.html#%EA%B0%9C%EB%B0%9C",
+    
+    "relUrl": "/docs/Projects/UNNIS/UNNIS.html#개발"
+  },"20": {
+    "doc": "자만추",
+    "title": "자만추",
+    "content": "자취생도 만들수 있는 추천레시피 . 식자재를 기반으로 한 레시피 추천 서비스 . ",
+    "url": "/docs/Projects/%EC%9E%90%EB%A7%8C%EC%B6%94/UNNIS.html",
+    
+    "relUrl": "/docs/Projects/%EC%9E%90%EB%A7%8C%EC%B6%94/UNNIS.html"
+  },"21": {
+    "doc": "자만추",
+    "title": "Contents",
+    "content": ". | 개요 | 개발 | . ",
+    "url": "/docs/Projects/%EC%9E%90%EB%A7%8C%EC%B6%94/UNNIS.html#contents",
+    
+    "relUrl": "/docs/Projects/%EC%9E%90%EB%A7%8C%EC%B6%94/UNNIS.html#contents"
+  },"22": {
+    "doc": "자만추",
+    "title": "개요",
+    "content": ". ",
+    "url": "/docs/Projects/%EC%9E%90%EB%A7%8C%EC%B6%94/UNNIS.html#%EA%B0%9C%EC%9A%94",
+    
+    "relUrl": "/docs/Projects/%EC%9E%90%EB%A7%8C%EC%B6%94/UNNIS.html#개요"
+  },"23": {
+    "doc": "자만추",
+    "title": "개발",
+    "content": " ",
+    "url": "/docs/Projects/%EC%9E%90%EB%A7%8C%EC%B6%94/UNNIS.html#%EA%B0%9C%EB%B0%9C",
+    
+    "relUrl": "/docs/Projects/%EC%9E%90%EB%A7%8C%EC%B6%94/UNNIS.html#개발"
+  },"24": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  }
+}
