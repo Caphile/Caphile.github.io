@@ -178,9 +178,8 @@ function searchLoaded(index, docs) {
 
     } else {
       var resultsList = document.createElement('ul');
-      resultsList.classList.add('search-results-list');
+      resultsList.classList.add('search-results-list');      
       searchResults.appendChild(resultsList);
-
       addResults(resultsList, results, 0, 10, 100, currentSearchIndex);
     }
 
@@ -348,7 +347,7 @@ function searchLoaded(index, docs) {
       }
       var resultRelUrl = document.createElement('span');
       resultRelUrl.classList.add('search-result-rel-url');
-      resultRelUrl.innerText = doc.relUrl;
+      resultRelUrl.innerText = decodeURIComponent(doc.relUrl);
       resultTitle.appendChild(resultRelUrl);
     }
 
