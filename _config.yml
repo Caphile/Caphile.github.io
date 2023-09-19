@@ -2,10 +2,13 @@ title: Caphile
 description: Caphile's Tech Blog
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://caphile.github.io/
 
 
 back_to_top: true
 back_to_top_text: "Back to top"
 
 footer_content: ""
+
+
+color_scheme: dark
