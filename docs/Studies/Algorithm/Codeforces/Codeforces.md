@@ -22,7 +22,7 @@ Contests 기록용
   <dt>Time</dt>
   <dd>Sep/21/2023 23:35, (02:30)</dd>
   <dt>Rating</dt>
-  <dd>1169 (+82), newbie</dd>
+  <dd>1087(unrated)</dd>
   <dt>Solved</dt>
   <dd>6/8</dd>
   <dt>Problems</dt>
