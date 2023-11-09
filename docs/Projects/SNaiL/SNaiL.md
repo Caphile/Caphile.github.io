@@ -121,6 +121,7 @@ SNaiL을 개발하기에 앞서 다음과 같은 배경을 조사했다.
 {: .no_toc}
 <br/>
 AWS RDS로, MariaDB 엔진을 사용했다. 서버 인스턴스와 DB인스턴스는 같은 AWS 서비스이다보니 쉽게 연결이 가능했다. 다음은 DB Table 설계이다.
+기본적으로 부모, 아동, 검사에 관한 정보를 저장하는 테이블 3개로 DB를 구성했다. 
 
 - PARENT
 
@@ -143,6 +144,7 @@ AWS RDS로, MariaDB 엔진을 사용했다. 서버 인스턴스와 DB인스턴�
     | CHAR(8) | DATE | FLOAT(5,2) | FLOAT(5,2) | FLOAT(5,2) | FLOAT(5,2) | FLOAT(5,2) | FLOAT(5,2) | FLOAT(5,2) | VARCHAR(500) | CHAR(8) |
     | PRIMARY | NOT NULL |  |  |  |  |  |  |  |  | NOT NULL |
 
+
 #### 웹 호스팅
 {: .text-gamma}
 {: .no_toc}
@@ -160,14 +162,9 @@ Github Page를 사용해 배포했다. Flutter는 build web 명령어를 통해 
 
 와이어프레임 작성, 에셋 디자인 등은 Figma를 통해 진행했고, 서비스에 실제 사용될 UI 화면은 Flutter로 작성했다. Fimga 플러그인 중 Figma to Code를 사용하여 UI 화면을 작성하는데 많은 도움을 받았다.
 
-#### 기능
-{: .text-gamma}
-{: .no_toc}
-<br/>
-크게 세 파트로 기초 정보, 검사, 결과로 나누어 개발을 진행했다.
+기능은 크게 세 파트로 기초 정보, 검사, 결과로 나누어 개발을 진행했다. 아래 자료는 프로젝트 당시 사용한 Figma 화면의 일부이다.
 
 ![image](https://github.com/home-gravity/home-gravity.github.io/assets/47132589/657cf0af-1787-4c0d-9d92-63fdd1bdb27b)
-위 사진은 프로젝트 당시 사용한 Figma 화면의 일부이다. 
 
 #### 기초정보
 {: .text-gamma}
@@ -201,7 +198,6 @@ DB에 결과 데이터가 쌓인 모습
 
 ![image](https://github.com/home-gravity/home-gravity.github.io/assets/47132589/d62ed3ae-c321-42f7-bb46-bff50c9274f1)
 
-
 <br/>
 ### <b>Modeling<b/>
 
@@ -216,17 +212,20 @@ DB에 결과 데이터가 쌓인 모습
 #### 음성인식
 {: .text-gamma}
 {: .no_toc}
-ㅇㅇㅇㅇ
+<br/>
+어떤 모델을 사용할지 선택하기 위해 많은 고민들이 따랐다. AI Hub에 있는 발화데이터로 우리만의 모델을 새로 만들거나 혹은 기존에 좋은 성능을 자랑하는 Whisper 모델을 튜닝하여 사용하거나, Flutter에 존재하는 모듈을 사용하는 방법 등이 있었다. 
 
 #### 시선추적
 {: .text-gamma}
 {: .no_toc}
-ㅇㅇㅇㅇ
+<br/>
+Python에 존재하는 OpenCV와 dilb 모듈을 사용하여 구현했다. 
 
 #### AI 피드백
 {: .text-gamma}
 {: .no_toc}
-ㅇㅇㅇ
+<br/>
+초기에는 구상하지 않다가 경쟁력 등의 문제로 프로젝트 말미에 추가하는것으로 결정되어 
 
 ---
 
