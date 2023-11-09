@@ -69,14 +69,17 @@ SNaiL을 개발하기에 앞서 다음과 같은 배경을 조사했다.
 
 ### 진행과정
 {: .no_toc}
+
 ![image](https://github.com/Caphile/Caphile.github.io/assets/47132589/8d5f149b-ec39-4cad-a35e-276b2fdc4333)
 
 ### 시스템 구조도
 {: .no_toc}
+
 ![image](https://github.com/Caphile/Caphile.github.io/assets/47132589/61564222-9178-416e-bae8-9f21d0250a4f)
 
 ### 서비스 플로우
 {: .no_toc}
+
 ![image](https://github.com/Caphile/Caphile.github.io/assets/47132589/dedee876-1911-40a7-8bb5-220d46d56429)
 
 ### 화면구성
@@ -188,11 +191,16 @@ Github Page를 사용해 배포했다. Flutter는 build web 명령어를 통해 
 {: .no_toc}
 <br/>
 검사가 종료된 후 얻은 점수를 바탕으로 여러가지 상대지표들을 확인 할 수 있다.
-1. 검사 결과 저장: 검사 결과와 점수를 이용하여 GPT 피드백을 생성하고 결과를 저장합니다.
+1. 검사 결과 저장: 검사 결과와 점수를 이용하여 GPT 피드백을 생성하고 결과를 저장.
 2. 검사 결과: 선택한 RESULT_ID를 기준으로 해당 검사의 결과를 확인.
 3. 검사 결과(대시보드): 여러 달에 걸쳐 인지 능력 지표의 변화를 한눈에 확인할 수 있는 대시보드를 제공.
 
-유연성, 주의력, 기억력, 처리능력, 언어능력과 같은 다양한 능력을 측정한 이전 검사 결과를 기반으로 통계를 생성하여 자신의 능력치의 백분위를 파악할 수 있습니다. 각 점수를 종합하여 통합 백분위를 얻어내어, 아동이 상대적으로 어느 정도의 인지능력을 가지고 있는지를 판단할 수 있습니다.
+유연성, 주의력, 기억력, 처리능력, 언어능력과 같은 다양한 능력을 측정한 이전 검사 결과를 기반으로 통계를 생성하여 자신의 능력치의 백분위를 파악할 수 있습니다. 각 점수를 종합하여 통합 백분위를 얻어내어, 아동이 상대적으로 어느 정도의 인지능력을 가지고 있는지를 판단할 수 있다.
+
+DB에 결과 데이터가 쌓인 모습
+
+![image](https://github.com/home-gravity/home-gravity.github.io/assets/47132589/d62ed3ae-c321-42f7-bb46-bff50c9274f1)
+
 
 <br/>
 ### <b>Modeling<b/>
@@ -202,6 +210,8 @@ Github Page를 사용해 배포했다. Flutter는 build web 명령어를 통해 
 {: .no_toc}
 {: .new }
 > Python
+
+기본적으로 Python을 사용하여 AI 모델을 준비했고, Flutter 어플리케이션 내에서 Python을 구동하기에는 무리가 있어 Flask 서버를 두어 Api 통신으로 모델을 활용했다.
 
 #### 음성인식
 {: .text-gamma}
