@@ -12,6 +12,13 @@ AI 기반 아동 인지능력 검사 서비스
 
 2023 데이터청년캠퍼스 한국외국어대학교 주관 자연어처리 기반 딥러닝기술 융합과정
 
+<b>한국외국어대학교 내 3위 작품<b/>
+
+<br/>
+팀 구성
+
+![image](https://user-images.githubusercontent.com/137850633/262909874-f29f9a16-f8fa-47ed-92eb-5ca45d70e0d4.png)
+
 ---
 
 ## Contents
@@ -108,13 +115,13 @@ SNaiL을 개발하기에 앞서 다음과 같은 배경을 조사했다.
 >
 > DB : AWS RDS/MariaDB
 
-배포를 고려하여 프로젝트를 계획했기 때문에 클라우드 환경의 서버가 필요했다. 여러 클라우드 서버 옵션을 비교해 보고, AWS의 서비스가 가장 적합하다고 판단했다. 조건부로 무료로 사용 가능하며 자료가 많다는 점이 매력적으로 작용했다.
+배포를 고려하여 프로젝트를 계획했기 때문에 클라우드 환경의 서버가 필요했다. 여러 클라우드 서버 옵션을 비교해 보고, AWS의 서비스가 가장 적합하다고 판단했다. 조건부로 프리티어 서버를 무료로 사용 가능하며 사용자가 많아 관련 자료가 많다는 점이 매력적으로 작용했다.
 
 #### 클라우드 서버
 {: .text-gamma}
 {: .no_toc}
 <br/>
-사용의 주요 목적은 서비스와 AI 모델 및 데이터베이스 간의 연결을 위한 REST API를 원격 서버를 통해 구현하는 것이었다. 초기 설계 단계에서는 REST API를 Flutter 서비스에 내장하여 사용하려고 했으나 호환성 문제로 인해 데이터를 서버에서 요청하고 가져오는 방식으로 변경하게 되었다. AI 모델의 튜닝 및 운영은 Python을 사용하였고, 데이터베이스 연동 및 외부 API 사용을 위해 JS를 활용했기 때문에, Flask와 Node.js를 각각 다른 포트에서 실행하여 통신했다. 이때, EC2 인스턴스의 엔드포인트 주소가 "ec2-OO-OOO-OOO-OO.ap-northeast-2.compute.amazonaws.com"와 같이 복잡하기 때문에 도메인을 구하여 쉽게 접근할 수 있도록 설정했다.
+사용의 주요 목적은 서비스와 AI 모델 및 데이터베이스 간의 연결을 위한 REST API를 원격 서버를 통해 구현하는 것이었다. 초기 설계 단계에서는 REST API를 Flutter 서비스에 내장하여 사용하려고 했으나 호환성 문제로 인해 데이터를 서버에서 요청하고 가져오는 방식으로 변경하게 되었다. AI 모델의 튜닝 및 운영은 Python을 사용하였고, 데이터베이스 연동 및 외부 API 사용을 위해 JS를 활용했기 때문에, Flask와 Node.js를 각각 다른 포트에서 실행하여 통신했다. 이때, EC2 인스턴스의 엔드포인트 주소가 "ec2-OO-OOO-OOO-OO.ap-northeast-2.compute.amazonaws.com"와 같이 복잡하기 때문에 도메인을 구하여 쉽게 접근할 수 있도록 설정했다. 프티티어 서버를 사용하기 떄문에 부족한 물리 메모리는 Swap 메모리를 활용했다.
 
 #### 데이터베이스
 {: .text-gamma}
@@ -149,7 +156,7 @@ AWS RDS로, MariaDB 엔진을 사용했다. 서버 인스턴스와 DB인스턴�
 {: .text-gamma}
 {: .no_toc}
 <br/>
-Github Page를 사용해 배포했다. Flutter는 build web 명령어를 통해 쉽게 웹 환경을 구성해준다. 빌드된 소스들을 Github에 올리고 새로운 도메인인 "web.snail23.kro.kr"를 가져와 적용했다. 현재도 접속은 가능하지만, AWS 서버를 무한히 유지 할 수가 없어서 EC2 인스턴스를 삭제한 상태라 제 기능을 못하는 상태로 있다.
+Github Page를 사용해 배포했다. Flutter는 build web 명령어를 통해 쉽게 웹 환경을 구성할 수 있는 기능을 제공해준다. 빌드된 소스들을 Github에 올리고 새로운 도메인인 [web.snail23.kro.kr](https://web.snail23.kro.kr/)를 가져와 적용했다. 현재도 접속은 가능하지만 금전적인 이유로 더이상 AWS 서버를 구동하지 않고 있기 떄문에, DB 접근이나 Api 사용 등이 불가능해 완전하지 못한 상태이다.
 
 <br/>
 ### <b>Frontend<b/>
@@ -160,7 +167,7 @@ Github Page를 사용해 배포했다. Flutter는 build web 명령어를 통해 
 {: .new }
 > Flutter, Figma
 
-와이어프레임 작성, 에셋 디자인 등은 Figma를 통해 진행했고, 서비스에 실제 사용될 UI 화면은 Flutter로 작성했다. Fimga 플러그인 중 Figma to Code를 사용하여 UI 화면을 작성하는데 많은 도움을 받았다.
+와이어프레임 작성, 에셋 디자인 등은 Figma를 통해 진행했고, 서비스에 실제 사용될 UI 화면은 Flutter로 작성했다. Fimga 플러그인 중 Figma에서 그린 프레임을 Flutter 코드로 바꿔주는 Figma to Code를 사용했는데, Figma 사용경험이 적은 우리팀의 개발자들이 UI 화면을 구현하는데 많은 도움을 받았다.
 
 기능은 크게 세 파트로 기초 정보, 검사, 결과로 나누어 개발을 진행했다. 아래 자료는 프로젝트 당시 사용한 Figma 화면의 일부이다.
 
@@ -213,13 +220,47 @@ DB에 결과 데이터가 쌓인 모습
 {: .text-gamma}
 {: .no_toc}
 <br/>
-어떤 모델을 사용할지 선택하기 위해 많은 고민들이 따랐다. AI Hub에 있는 발화데이터로 우리만의 모델을 새로 만들거나 혹은 기존에 좋은 성능을 자랑하는 Whisper 모델을 튜닝하여 사용하거나, Flutter에 존재하는 모듈을 사용하는 방법 등이 있었다. 
+어떤 모델을 사용할지 선택하기 위해 많은 고민들이 따랐다. AI Hub에 있는 발화데이터로 우리만의 모델을 새로 만들거나 혹은 기존에 좋은 성능을 자랑하는 Whisper 모델을 튜닝하여 사용하거나, Flutter에 존재하는 모듈을 사용하는 방법 등이 있었다.
+
+
 
 #### 시선추적
 {: .text-gamma}
 {: .no_toc}
 <br/>
-Python에 존재하는 OpenCV와 dilb 모듈을 사용하여 구현했다. 
+얼굴 이미지에서 눈동자의 위치를 추적하고, 눈동자가 어떤 방향을 향하고 있는지를 판단하는 함수를 작성하여 구현하였다. [shape_predictor_68_face_landmarks.dat](https://github.com/italojs/facial-landmarks-recognition)은 얼굴을 감지하고 얼굴의 특징점을 예측하는 데 사용되는 데이터 파일인데, 얼굴 이미지에서 68개의 랜드마크를 감지할 수 있다. 
+
+```python
+# 랜드마크 추출
+landmarks = predictor(img, face)
+
+# 왼쪽 눈 위치 찾기
+left_eye_x = min(landmarks.part(n).x for n in range(36, 42))
+left_eye_y = min(landmarks.part(n).y for n in range(36, 42))
+left_eye_w = max(landmarks.part(n).x for n in range(36, 42)) - left_eye_x
+left_eye_h = max(landmarks.part(n).y for n in range(36, 42)) - left_eye_y
+```
+
+위 코드서 알 수 있듯 36번부터 41번 랜드마크가 왼쪽 눈을 표현한다. 여기에서 알게 된 양 눈의 좌표를 바탕으로 눈 이미지만 따로 떼어내어 그레이 스케일로 변환 후 가우시안 블러를 적용하여 특정 임계값(50)을 기준으로 눈동자를 찾았다. 
+
+ ```python
+# 눈 영역 설정
+roi_left_eye = img[left_eye_y:left_eye_y+left_eye_h, left_eye_x:left_eye_x+left_eye_w]
+
+# 왼쪽 눈 처리
+gray_roi_left_eye = cv2.cvtColor(roi_left_eye, cv2.COLOR_BGR2GRAY)
+gray_roi_left_eye = cv2.GaussianBlur(gray_roi_left_eye, (5,5), 0)
+
+_, threshold_left_eye = cv2.threshold(gray_roi_left_eye, 50, 255, cv2.THRESH_BINARY_INV)
+contours_left_eye, _ = cv2.findContours(threshold_left_eye, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+contours_left_eye = sorted(contours_left_eye, key=lambda x: cv2.contourArea(x), reverse=True)
+```
+
+위 코드에서는 왼쪽 눈에 대한 처리만 했지만 오른쪽 눈의 랜드마크 범위를 42부터 48로 설정한 것을 제외하고는 동일하게 진행했다. 이 과정을 통하면 다음 자료와 같이 눈과 눈동자의 실시간 추적이 가능함을 볼 수 있다.
+
+
+이때 얻어낸 
+
 
 #### AI 피드백
 {: .text-gamma}
