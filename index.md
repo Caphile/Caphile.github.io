@@ -7,8 +7,8 @@ nav_order: 1
 # Heechan Kim
 
 <br/>
-- HUFS CES, Undergraduate Degree
-- [Daolvision](http://www.daolvision.com/), Development and QA/QC work for a period of 8 months
+- Computer Engineering Science(CES), HUFS, Graduated August 2024
+- R&D, [Daolvision](http://www.daolvision.com/), December 2022 -
 - 
 
 ---
