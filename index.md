@@ -33,6 +33,12 @@ AI
 
 [Email](mailto:caphile98@gmail.com)
 
+---
+
+## Others
+
+<br/>
+
 [GitHub](https://github.com/Caphile)
 
 [Baekjoon](https://www.acmicpc.net/user/caphile98)
