@@ -7,8 +7,8 @@ nav_order: 1
 # Heechan Kim
 
 <br/>
-- Computer Engineering Science(CES), HUFS, Graduated August 2024
-- R&D, [Daolvision](http://www.daolvision.com/), December 2022 -
+- Bachelor’s Degree in Computer Science, HUFS (2018-2024)
+- R&D, [Daolvision](http://www.daolvision.com/), 2022.12 - 
 - 
 
 ---
