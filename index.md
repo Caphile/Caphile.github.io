@@ -20,7 +20,7 @@ Backend
 {: .label }
 Network
 {: .label }
-Data Analysis
+Data Engineering
 {: .label }
 AI
 {: .label }
