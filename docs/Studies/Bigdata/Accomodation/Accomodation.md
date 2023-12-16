@@ -1,7 +1,7 @@
 ---
 title: Accomodation
 layout: default
-parent: Crawling
+parent: Bigdata
 grand_parent: Studies
 ---
 
@@ -73,4 +73,4 @@ grand_parent: Studies
 ## 결과
 
 <br/>
-dsㄴ
+파이썬으로 각 데이터를 읽어 통계적으로 분석 예정
