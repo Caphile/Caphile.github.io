@@ -8,7 +8,7 @@ nav_order: 1
 
 <br/>
 - Bachelor’s Degree in Computer Science, [HUFS](https://www.hufs.ac.kr/), 2018.03 - 2024.08
-- R&D, [Daolvision](http://www.daolvision.com/), 2022.12 - 2023.03
+- R&D, [Daolvision](http://www.daolvision.com/), 2022.12 - 2023.02
    - Conducted QA/QC for kiosk, POS, and inventory systems
    - Participated in development of the inventory management system
 
